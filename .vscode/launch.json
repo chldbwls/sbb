@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SbbApplication<sbb>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mygroup.sbb.SbbApplication",
+            "projectName": "sbb",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "name": "Attach to Python Functions",
+            "type": "python",
+            "request": "attach",
+            "port": 9091,
+            "preLaunchTask": "func: host start"
+        }
+    ],
+    "version": "0.2.0"
+}
